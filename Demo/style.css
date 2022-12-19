@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.header {
+    width: 1280px;
+    height: 80px;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-logo {
+    margin-left: 50px;
+    line-height: 80px;
+    color: 2D2D2D;
+    font-size: 20px;
+
+}
+
+.header-menu {
+    display: flex;
+    line-height: 80px;
+    color: 2D2D2D;
+    font-size: 17px;
+}
+
+.header-menu div {
+    margin-right: 50px;
+}
+
+.about-content {
+    width: 1280px;
+    height: 537.52px;
+    background-color: #F9E6F0;
+}
+
+.content {
+    width: 780px;
+    height: 297.52px;
+    padding: 120px 250px;
+    display: flex;
+}
+
+.text_author {
+    margin-top: 20px;
+
+}
+
+.content-title p {
+    width: 515px;
+    height: 135px;
+    margin-top: 81.26px;
+    margin-bottom: 81.26px;
+    margin-left: 70px;
+}
+
+.body_content {
+    width: 1280px;
+    height: 640px;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.body_content_text {
+    margin: 120px 200px;
+    width: 880px;
+    height: 400px;
+    /* background-color: antiquewhite; */
+}
+
+.text1 {
+    line-height: 146%;
+    font-size: 24px;
+}
+
+.text2 {
+    color: #FFFFFF;
+    height: 26px;
+    background-color: #009379;
+    line-height: 26px;
+    margin-top: 60px;
+}
+
+.text3 {
+    height: 36px;
+    line-height: 36px;
+}
+
+.text4 {
+    color: #FFFFFF;
+    height: 26px;
+    background-color: #009379;
+    line-height: 26px;
+}
+
+.text5 {
+    top: 5px;
+    height: 78px;
+    line-height: 26px;
+    line-height: 159%;
+}
+
+/* Chân trang */
+
+.footer {
+    background-color: aqua;
+
+    /* background-color: #FFFFFF; */
+    width: 1280px;
+    height: 669px;
+}
+
+.footer_info {
+    background-color: rgb(241, 113, 113);
+
+    width: 1080px;
+    height: 599px;
+    margin: 0px 100px 70px 100px;
+    display: flex;
+}
+
+.footer_info_child {
+    margin-top: 70px;
+    background-color: #e9057f;
+
+}
+
+.Contact_info {
+    width: 360px;
+    height: 313px;
+}
+
+.Footer_message {
+    height: 217px;
+}
+
+.Footer_message h2 {
+    height: 360px;
+    height: 42px;
+    font-size: 32px;
+    font-weight: 600px;
+    line-height: 42px;
+    line-height: 128%;
+}
+
+.Footer_message p {
+    font-size: 17px;
+    height: 135px;
+    margin-top: 40px;
+}
